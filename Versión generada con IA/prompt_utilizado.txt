@@ -1,0 +1,93 @@
+Desarrolla una aplicación de consola en C# (.NET 6 o superior) llamada Sistema Integral de Gestión de Biblioteca Universitaria.
+
+El sistema debe funcionar completamente desde consola utilizando menús interactivos.
+
+REQUERIMIENTOS:
+
+1. Gestión de Libros
+   Debe permitir:
+
+* Registrar libros
+* Buscar libros por código
+* Listar libros
+* Eliminar libros
+
+Cada libro debe tener:
+
+* código
+* título
+* autor
+* editorial
+* año de publicación
+* categoría
+* cantidad disponible
+
+2. Gestión de Usuarios
+   Debe permitir:
+
+* Registrar usuarios
+* Buscar usuarios por carné
+* Buscar usuarios por nombre
+* Listar usuarios
+
+Cada usuario debe tener:
+
+* carné
+* nombre completo
+* carrera
+* correo electrónico
+* teléfono
+* estado
+
+3. Gestión de Préstamos
+   Debe permitir:
+
+* Registrar préstamo
+* Validar disponibilidad del libro
+* Registrar devolución
+* Consultar préstamos activos
+
+REQUISITOS TÉCNICOS OBLIGATORIOS:
+
+* Usar if-else
+* Usar switch-case
+* Usar for
+* Usar while
+* Usar do-while
+* Usar arreglos
+* Usar matrices
+* Usar strings
+* Usar structs
+* Usar manejo de archivos txt y csv
+
+REQUISITOS DE ALMACENAMIENTO:
+
+* Guardar libros en libros.csv
+* Guardar usuarios en usuarios.txt
+* Guardar préstamos en prestamos.txt
+* Cargar datos automáticamente al iniciar el sistema
+* Guardar datos automáticamente
+
+VALIDACIONES:
+
+* Validar campos vacíos
+* Validar números enteros
+* Validar correo electrónico
+* Validar disponibilidad de libros
+* Manejar excepciones con try-catch
+
+LIMITES:
+
+* Máximo 10 libros
+* Máximo 5 usuarios
+* Máximo 10 préstamos
+
+IMPORTANTE:
+
+* Generar todo el código en un solo archivo .cs
+* Usar structs para Libro, Usuario y Prestamo
+* Utilizar arreglos de structs
+* El código debe ser simple, funcional y entendible
+* No usar interfaces gráficas
+* No usar bases de datos
+* Usar únicamente archivos txt y csv para persistencia
